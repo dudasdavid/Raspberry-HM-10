@@ -52,7 +52,6 @@ class HM10_Characteristic(Characteristic):
         self._updateValueCallback = updateValueCallback
 
     def onNotify(self):
-        #print("buzi")
         pass
 
     def onUnsubscribe(self):
